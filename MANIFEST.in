@@ -1,0 +1,8 @@
+# Add non-Python files
+graft bioblend/_tests
+# Add documentation
+graft docs
+
+global-exclude *.swp *.pyc .gitignore
+
+include *.rst CITATION LICENSE
